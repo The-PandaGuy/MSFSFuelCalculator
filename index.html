@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A320 NEO Fuel Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Airbus A320 NEO Fuel Calculator!</h1>
+    <div id="inputValues">
+        <h2>Calculate Fuel</h2>
+        <input type="text" placeholder="Enter the total distance of your flight in KM" id="inputDis"><br>
+        <input type="text" placeholder="Enter the total distance to your reserve airport(s) in KM" id="inputDisRes"><br>
+        <input type="text" placeholder="Enter the total width of your depature airport" id="inputWDA"><br>
+        <input type="text" placeholder="Enter the total width of your arrival airport" id="inputWAA"><br>
+        <input type="text" placeholder="(OPTIONAL) Enter your extra fuel amount(GAL)" id="inputExtraFuel"><br>
+        <button id="calculate">Calculate</button>
+    </div>
+
+    <h3 id="totalFuelH3"></h3>
+
+    <script src="script.js"></script>
+</body>
+</html>
